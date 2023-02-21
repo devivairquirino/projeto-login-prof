@@ -54,9 +54,7 @@ div#formulario > h1{
     margin-bottom: 10px;
 }
 @media screen and (orientation: landscape) and (max-width: 768px){
-    body{
-        background-color: blue;
-    }
+
     section#login{
         width: 85vw;
         height: 40vw;
