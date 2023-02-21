@@ -51,7 +51,7 @@ section#login > div#formulario{
 }
 @media screen and (orientation: landscape) and (max-width: 768px){
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-color: blue;
     }
     section#login{
         width: 85vw;
