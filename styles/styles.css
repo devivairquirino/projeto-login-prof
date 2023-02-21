@@ -24,7 +24,7 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    
 
     background-color: white;
     width: 250px;
@@ -36,6 +36,7 @@ section#login{
 
     transition: width .5s, height .5s;
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 }
 section#login > div#imagem{
     background: #5f2c82 url('../images/metal.jpg') no-repeat;
@@ -63,6 +64,29 @@ form > div.campo{
     display: block;
     height: 40px;
 }
+div.campo span{
+    font-size: 1.8em;
+    color: white;
+
+    width: 40px;
+    padding: 5px;
+    
+}
+div.campo input {
+    background-color: #bdf7f5;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #5f2c82;
+    transform: translateY(-7px);
+
+}
+div.campo input:focus-within{
+    background-color: white;
+    border: none;
+}
 form > div.campo > label{
     display: none;
 }
@@ -74,7 +98,7 @@ form > input[type=submit]{
     background-color: #49a09d;
     border: none;
     color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 form > input[type=submit]:hover{
@@ -91,15 +115,16 @@ form > a.botao{
     background-color: white;
     color: #2a6361;
     border: 1px solid #6fc4c1;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
 }
 form > a.botao:hover {
     background-color: #61d4d1;;
 }
-form > a.botao > span{
+a.botao span{
     font-size: 0.8em;
 }
+
 @media screen and (orientation: landscape) and (max-width: 768px){
 
     section#login{
