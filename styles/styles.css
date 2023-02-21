@@ -54,8 +54,8 @@ section#login > div#formulario{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
-        width: 90vw;
-        height: 50vw;
+        width: 85vw;
+        height: 40vw;
     }
     section#login > div#imagem{
         float: left;
